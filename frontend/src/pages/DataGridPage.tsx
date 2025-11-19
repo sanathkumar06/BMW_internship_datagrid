@@ -32,7 +32,6 @@ export const DataGridPage = () => {
   const loadAllCars = async () => {
     setLoading(true);
     try {
-      console.log('📥 Loading all cars...');
       const cars = await fetchAllCars();
       setAllCars(cars);
       setDisplayedCars(cars);
