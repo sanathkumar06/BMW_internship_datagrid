@@ -94,7 +94,7 @@ const DetailPage: React.FC = () => {
             '&:hover': { backgroundColor: 'transparent' },
           }}
         >
-          Back to Fleet
+          Back to DataGrid
         </Button>
 
         {/* Main Card */}
